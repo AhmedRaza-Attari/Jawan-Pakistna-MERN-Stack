@@ -83,6 +83,7 @@ let mobiles_features = [
 
 function search() {
     let showList = document.getElementById("showList");
+    showList.innerHTML = ""
 
     let mobilesDropdown = document.getElementById("mobilesDropdown");
     console.log(mobilesDropdown);
